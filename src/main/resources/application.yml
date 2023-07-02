@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: querydsl-demo
+  profiles:
+    active: testdata
+  datasource:
+    url: jdbc:postgresql://localhost:5432/querydsl_demo
+    username: user
+    password: password
